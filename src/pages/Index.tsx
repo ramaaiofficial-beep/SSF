@@ -96,39 +96,39 @@ const Index = () => {
           <img
             src={heroImage}
             alt="Shree Samrajya Lakshmi Multi-Super Specialty Hospital"
-            className="block w-full h-auto object-contain"
+            className="block w-full h-auto object-cover min-h-[400px] sm:min-h-[500px] md:min-h-[600px] lg:object-contain"
           />
 
           {/* Very light tint overlay for a subtle premium feel */}
-          <div className="absolute inset-0 bg-black/20" />
+          <div className="absolute inset-0 bg-black/30 sm:bg-black/20" />
 
           {/* Hero content */}
-          <div className="absolute inset-0 flex items-end justify-center">
-            <div className="w-full max-w-4xl px-3 sm:px-4 md:px-6 pb-6 sm:pb-8 md:pb-10 lg:pb-14 xl:pb-16 mx-auto">
+          <div className="absolute inset-0 flex items-end sm:items-end justify-center">
+            <div className="w-full max-w-4xl px-4 sm:px-4 md:px-6 pb-4 sm:pb-6 md:pb-10 lg:pb-14 xl:pb-16 mx-auto">
               {/* Hero text container perfectly centered */}
-              <div className="text-center text-primary-foreground drop-shadow-md flex flex-col items-center justify-center w-full">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-center w-full">
-                  <span className="block text-center sm:whitespace-nowrap -translate-x-8 sm:-translate-x-12 md:-translate-x-20">
+              <div className="text-center text-primary-foreground drop-shadow-lg flex flex-col items-center justify-center w-full">
+                <h1 className="text-sm sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight text-center w-full px-2">
+                  <span className="block text-center whitespace-nowrap overflow-x-auto sm:-translate-x-12 md:-translate-x-20">
                     1000 bedded Divine Hospital for the People,
                   </span>
-                  <span className="block text-center sm:whitespace-nowrap mt-1">
+                  <span className="block text-center whitespace-nowrap mt-1 sm:mt-2">
                     Built by the People.
                   </span>
                 </h1>
-                <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-primary-foreground/90 leading-relaxed text-center px-2">
+                <p className="mt-2 sm:mt-3 md:mt-4 text-xs sm:text-sm md:text-base lg:text-lg text-primary-foreground/95 leading-relaxed text-center px-3 sm:px-2 max-w-2xl mx-auto">
                   Join us in creating the Shree Samrajya Lakshmi Multi-Super Specialty Hospital a world-class healthcare centre dedicated to free treatment for all. Your contribution today lays the foundation for a healthier tomorrow.
                 </p>
-                <div className="mt-5 sm:mt-6 md:mt-7 flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3 sm:gap-4 w-full px-2">
+                <div className="mt-4 sm:mt-5 md:mt-6 lg:mt-7 flex flex-col sm:flex-row flex-wrap items-center justify-center gap-2.5 sm:gap-3 md:gap-4 w-full px-2">
                   <button
                     onClick={openModal}
-                    className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-5 sm:px-6 md:px-7 py-2.5 sm:py-3 text-sm sm:text-base font-semibold text-primary-foreground shadow-lg transition-all duration-200 hover:bg-primary/90 hover:shadow-xl animate-breathe w-full sm:w-auto"
+                    className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-4 sm:px-5 md:px-6 lg:px-7 py-2 sm:py-2.5 md:py-3 text-xs sm:text-sm md:text-base font-semibold text-primary-foreground shadow-lg transition-all duration-200 hover:bg-primary/90 hover:shadow-xl animate-breathe w-full sm:w-auto min-w-[140px]"
                   >
-                    <Heart className="h-4 w-4 sm:h-5 sm:w-5" />
+                    <Heart className="h-3.5 w-3.5 sm:h-4 sm:w-4 md:h-5 md:w-5" />
                     Donate Now
                   </button>
                   <a
                     href="/hospital/overview"
-                    className="inline-flex items-center justify-center gap-2 rounded-full border border-primary bg-background/90 px-5 sm:px-6 md:px-7 py-2.5 sm:py-3 text-sm sm:text-base font-semibold text-primary transition-all duration-200 hover:bg-primary hover:text-primary-foreground hover:scale-105 hover:shadow-lg w-full sm:w-auto"
+                    className="inline-flex items-center justify-center gap-2 rounded-full border border-primary bg-background/90 px-4 sm:px-5 md:px-6 lg:px-7 py-2 sm:py-2.5 md:py-3 text-xs sm:text-sm md:text-base font-semibold text-primary transition-all duration-200 hover:bg-primary hover:text-primary-foreground hover:scale-105 hover:shadow-lg w-full sm:w-auto min-w-[140px]"
                   >
                     Explore Project
                   </a>
