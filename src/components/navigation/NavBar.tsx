@@ -99,7 +99,11 @@ const NavBar = () => {
       <div className="bg-background">
         <div className="container mx-auto flex items-center justify-between gap-2 sm:gap-4 px-3 sm:px-4 py-2 sm:py-3">
           {/* Logo and Company Name */}
-          <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0 min-w-0">
+          <a 
+            href="/" 
+            onClick={(e) => handleNavClick("/")}
+            className="flex items-center gap-2 sm:gap-3 flex-shrink-0 min-w-0 cursor-pointer hover:opacity-80 transition-opacity"
+          >
             <img 
               src={ssfLogo} 
               alt="SSF Logo" 
@@ -113,7 +117,7 @@ const NavBar = () => {
                   FOUNDATION
                 </span>
             </div>
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex flex-1 ml-4">
