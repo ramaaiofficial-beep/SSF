@@ -49,28 +49,28 @@ const DonationModal = ({ open, onOpenChange }: DonationModalProps) => {
           {/* Donation Options with Radio Buttons */}
           <RadioGroup value={selectedDonationOption} onValueChange={handleOptionChange}>
             <div className="flex flex-wrap gap-3">
-              <div className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-accent cursor-pointer flex-1 min-w-[200px]">
+              <div className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors duration-300 cursor-pointer flex-1 min-w-[200px]">
                 <RadioGroupItem value="building" id="building" />
                 <Label htmlFor="building" className="cursor-pointer">
                   <CardTitle className="text-xl">Building Materials</CardTitle>
                 </Label>
               </div>
               
-              <div className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-accent cursor-pointer flex-1 min-w-[200px]">
+              <div className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors duration-300 cursor-pointer flex-1 min-w-[200px]">
                 <RadioGroupItem value="icu" id="icu" />
                 <Label htmlFor="icu" className="cursor-pointer">
                   <CardTitle className="text-xl">ICU Bed Installation</CardTitle>
                 </Label>
               </div>
               
-              <div className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-accent cursor-pointer flex-1 min-w-[200px]">
+              <div className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors duration-300 cursor-pointer flex-1 min-w-[200px]">
                 <RadioGroupItem value="patient" id="patient" />
                 <Label htmlFor="patient" className="cursor-pointer">
                   <CardTitle className="text-xl">Patient Room Sponsor</CardTitle>
                 </Label>
               </div>
               
-              <div className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-accent cursor-pointer flex-1 min-w-[200px]">
+              <div className="flex items-center space-x-3 p-4 border rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors duration-300 cursor-pointer flex-1 min-w-[200px]">
                 <RadioGroupItem value="custom" id="custom" />
                 <Label htmlFor="custom" className="cursor-pointer">
                   <CardTitle className="text-xl">Custom Donation</CardTitle>
