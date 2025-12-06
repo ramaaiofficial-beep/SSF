@@ -105,12 +105,12 @@ const NavBar = () => {
               alt="SSF Logo" 
               className="h-12 sm:h-16 md:h-20 w-auto object-contain flex-shrink-0" 
             />
-            <div className="flex flex-col text-left min-w-0">
-              <span className="text-xs sm:text-sm md:text-lg lg:text-xl font-extrabold leading-tight text-primary whitespace-nowrap uppercase block truncate">
+            <div className="flex flex-row items-center gap-2 sm:gap-3 text-left min-w-0">
+              <span className="text-xs sm:text-sm md:text-lg lg:text-xl font-extrabold leading-tight text-primary whitespace-nowrap uppercase truncate">
                   SHREE SAMRAJYALAKSHMI
                 </span>
-              <span className="block text-[10px] sm:text-xs md:text-sm lg:text-base font-medium text-muted-foreground whitespace-nowrap tracking-tight leading-tight mt-0.5 truncate">
-                  Multi-Super Specialty Hospital
+              <span className="text-xs sm:text-sm md:text-lg lg:text-xl font-extrabold leading-tight text-primary whitespace-nowrap uppercase truncate -translate-x-1">
+                  FOUNDATION
                 </span>
             </div>
           </div>
