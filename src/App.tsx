@@ -32,28 +32,28 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <DonationModalProvider>
-        <Toaster />
-        <Sonner />
+      <Toaster />
+      <Sonner />
         <GlobalDonationModal />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/hospital/overview" element={<HospitalOverview />} />
-            <Route path="/hospital/departments" element={<HospitalDepartments />} />
-            <Route path="/fundraising/offline" element={<OfflineDonations />} />
-            <Route path="/foundation/about" element={<AboutFoundation />} />
-            <Route path="/foundation/board" element={<BoardMembers />} />
-            <Route path="/foundation/guruji" element={<Guruji />} />
-            <Route path="/foundation/goddess" element={<GoddessSamrajyalakshmi />} />
-            <Route path="/foundation/temple" element={<Temple />} />
-            <Route path="/contact/contact-us" element={<ContactUs />} />
-            <Route path="/media" element={<MediaGallery />} />
-            <Route path="/media/press" element={<PressAndNews />} />
-            <Route path="/media/photos" element={<PhotoGallery />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/hospital/overview" element={<HospitalOverview />} />
+          <Route path="/hospital/departments" element={<HospitalDepartments />} />
+          <Route path="/fundraising/offline" element={<OfflineDonations />} />
+          <Route path="/foundation/about" element={<AboutFoundation />} />
+          <Route path="/foundation/board" element={<BoardMembers />} />
+          <Route path="/foundation/guruji" element={<Guruji />} />
+          <Route path="/foundation/goddess" element={<GoddessSamrajyalakshmi />} />
+          <Route path="/foundation/temple" element={<Temple />} />
+          <Route path="/contact/contact-us" element={<ContactUs />} />
+          <Route path="/media" element={<MediaGallery />} />
+          <Route path="/media/press" element={<PressAndNews />} />
+          <Route path="/media/photos" element={<PhotoGallery />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
       </DonationModalProvider>
     </TooltipProvider>
   </QueryClientProvider>

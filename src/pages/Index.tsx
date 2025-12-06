@@ -108,7 +108,7 @@ const Index = () => {
               {/* Hero text container perfectly centered */}
               <div className="text-center text-primary-foreground drop-shadow-md flex flex-col items-center justify-center w-full">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-center w-full">
-                  <span className="block text-center sm:whitespace-nowrap">
+                  <span className="block text-center sm:whitespace-nowrap -translate-x-8 sm:-translate-x-12 md:-translate-x-20">
                     1000 bedded Divine Hospital for the People,
                   </span>
                   <span className="block text-center sm:whitespace-nowrap mt-1">

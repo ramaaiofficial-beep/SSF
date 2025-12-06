@@ -116,11 +116,11 @@ const NavBar = () => {
             />
             <div className="flex flex-col text-left min-w-0">
               <span className="text-xs sm:text-sm md:text-lg lg:text-xl font-extrabold leading-tight text-primary whitespace-nowrap uppercase block truncate">
-                SHREE SAMRAJYALAKSHMI
-              </span>
+                  SHREE SAMRAJYALAKSHMI
+                </span>
               <span className="block text-[10px] sm:text-xs md:text-sm lg:text-base font-medium text-muted-foreground whitespace-nowrap tracking-tight leading-tight mt-0.5 truncate">
-                Multi-Super Specialty Hospital
-              </span>
+                  Multi-Super Specialty Hospital
+                </span>
             </div>
           </div>
 
