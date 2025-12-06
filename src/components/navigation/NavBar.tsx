@@ -51,15 +51,6 @@ const navigationItems: NavItem[] = [
     ],
   },
   {
-    label: "Resources",
-    href: "/resources",
-    subItems: [
-      { label: "Blog", href: "/blog" },
-      { label: "Press Release", href: "/press-release" },
-      { label: "Downloads (Brochures, Project Reports)", href: "/downloads" },
-    ],
-  },
-  {
     label: "Contact Us",
     href: "/contact/contact-us",
   },
