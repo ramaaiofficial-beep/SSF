@@ -177,7 +177,7 @@ const NavBar = () => {
                               <a
                                 href={subItem.href}
                                 onClick={() => handleNavClick(subItem.href)}
-                                className="block rounded-lg px-3 xl:px-4 py-2 xl:py-2.5 text-xs xl:text-sm text-popover-foreground transition-colors duration-150 hover:bg-accent hover:text-primary"
+                                className="block rounded-lg px-3 xl:px-4 py-2 xl:py-2.5 text-xs xl:text-sm text-popover-foreground transition-colors duration-150 hover:bg-primary hover:text-primary-foreground"
                               >
                                 {subItem.label}
                               </a>
@@ -262,7 +262,7 @@ const NavBar = () => {
                                   <a
                                     href={subItem.href}
                                     onClick={() => handleNavClick(subItem.href)}
-                                    className="block px-8 py-3 text-sm text-muted-foreground hover:text-primary hover:bg-accent/50 transition-colors"
+                                    className="block px-8 py-3 text-sm text-muted-foreground hover:text-primary-foreground hover:bg-primary transition-colors"
                                   >
                                     {subItem.label}
                                   </a>
@@ -275,7 +275,7 @@ const NavBar = () => {
                         <a
                           href={item.href}
                           onClick={() => handleNavClick(item.href)}
-                          className="block px-4 py-4 text-base font-medium text-foreground hover:text-primary hover:bg-accent/50 transition-colors"
+                          className="block px-4 py-4 text-base font-medium text-foreground hover:text-primary-foreground hover:bg-primary transition-colors"
                         >
                           {item.label}
                         </a>
